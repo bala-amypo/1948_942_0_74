@@ -4,7 +4,7 @@ package com.example.demo.Serviceimpl;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.repository.StudentRepository;
-import com.example.demo.entity.Student;
+import com.example.demo.entity.Stuentity;
 import com.example.demo.service.StudentService;
 
 @Service
