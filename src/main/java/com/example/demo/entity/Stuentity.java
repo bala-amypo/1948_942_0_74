@@ -7,7 +7,6 @@ import jakarta.persistence.Id;
 
 
 
-
 @Entity
 public class Stuentity{
     @Id
