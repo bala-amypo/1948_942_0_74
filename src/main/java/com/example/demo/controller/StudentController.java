@@ -6,16 +6,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.Stuentity;
-import com.example.demo.service.StudentService;
+import com.example.demo.service.Studentservice;
 
 @RestController
 public class StudentController {
     @Autowired
-    StudentService studentService;
+    Studentservice studentService;
 
     @PostMapping("/postdata")
-    public Stuentity postdata(@RequestBody Stuentity student){
-        return studentService.saveStudent(student);
+    public Stuentity postdata(@RequestBody Stuentity stuentity){
+        return studentService.saveStudent(stuentity);
     }
 }
 //StudentController
